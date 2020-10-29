@@ -1,0 +1,86 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.list {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  width: 100%;
+}
+
+.detail {
+  margin-left: 20px;
+}
+.detail form {
+  margin: 20px auto;
+  width: 60%;
+  border: 1px solid black;
+}
+
+.detailItem {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  font-size: 16px;
+  align-items: flex-start;
+}
+
+.detailItem label {
+  margin-right: 10px;
+  width: 100px;
+  text-align: left;
+}
+.detailItem input {
+  width: 500px;
+  text-align: left;
+  padding: 10px;
+}
+form label {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #bbb8b8;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+}
+
+.filter {
+  margin: 20px auto;
+}
